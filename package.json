@@ -10,8 +10,5 @@
     "REPL"
   ],
   "author": "Jesse Piascik <jesse@piascik.net>",
-  "license": "MIT",
-  "dependencies": {
-    "lodash": "~2.4.1"
-  }
+  "license": "MIT"
 }

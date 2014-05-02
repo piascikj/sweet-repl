@@ -3,12 +3,7 @@
     "^(node_modules|bower_components|\\.imdone|target|build)[\\/\\\\]?|\\.(git|svn)|\\~$|\\.(jpg|png|gif|swp|ttf|otf)$"
   ],
   "watcher": true,
-  "lists": [
-    {
-      "name": "TCP",
-      "hidden": false
-    }
-  ],
+  "lists": [],
   "marked": {
     "gfm": true,
     "tables": true,
