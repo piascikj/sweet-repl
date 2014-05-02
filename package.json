@@ -1,0 +1,17 @@
+{
+  "name": "sweet-repl",
+  "version": "0.0.1",
+  "description": "A repl wrapper that provides \"sweet\" formatting and an auto help function",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "keywords": [
+    "REPL"
+  ],
+  "author": "Jesse Piascik <jesse@piascik.net>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "~2.4.1"
+  }
+}
