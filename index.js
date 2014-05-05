@@ -39,6 +39,7 @@ var net  = require('net')
  * @return {SweetRepl}
  * @api public
  */
+
 function SweetRepl() {
   var self = this;
   this.opts = { prompt: 'sweet-repl>' };
@@ -105,6 +106,12 @@ SweetRepl.prototype.start = function() {
 
   // Apply all arguments given
   this.server.listen.apply(this.server, Array.prototype.slice.call(arguments, 1));
+};
+
+SweetRepl.prototype.stop = function(cb) {
+  cb = cb || function() {};
+  this.server.close(cb);
+  this.server.unref();
 };
 
 SweetRepl.prototype.command = function(name, desc, fn) {
