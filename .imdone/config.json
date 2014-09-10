@@ -3,7 +3,12 @@
     "^(node_modules|bower_components|\\.imdone|target|build)[\\/\\\\]?|\\.(git|svn)|\\~$|\\.(jpg|png|gif|swp|ttf|otf)$"
   ],
   "watcher": true,
-  "lists": [],
+  "lists": [
+    {
+      "name": "MIT",
+      "hidden": false
+    }
+  ],
   "marked": {
     "gfm": true,
     "tables": true,
@@ -12,5 +17,15 @@
     "sanitize": true,
     "smartLists": true,
     "langPrefix": "language-"
+  },
+  "code": {
+    "include_lists": [
+      "TODO",
+      "DOING",
+      "DONE",
+      "PLANNING",
+      "FIXME",
+      "ARCHIVE"
+    ]
   }
 }

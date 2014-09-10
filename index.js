@@ -100,7 +100,7 @@ SweetRepl.prototype.start = function() {
         return cmd.fn.apply(tools, args);
       };
     });
-    
+
     return this;
   });
 
